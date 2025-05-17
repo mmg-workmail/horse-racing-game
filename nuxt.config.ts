@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@pinia/nuxt'],
 
   tailwindcss: {
     exposeConfig: true,
@@ -29,6 +29,13 @@ export default defineNuxtConfig({
         }
       ]
     }
+  },
+  typescript: {
+    typeCheck: true,
+    strict: true // Enable strict type checking
+  },
+  pinia: {
+    storesDirs: ['stores/**', 'stores'],
   },
 
 })
