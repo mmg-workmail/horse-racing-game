@@ -2,7 +2,13 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
+
+  tailwindcss: {
+    exposeConfig: true,
+    viewer: true,
+    // and more...
+  },
 
   app: {
     head: {

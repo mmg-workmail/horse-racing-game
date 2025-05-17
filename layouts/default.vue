@@ -1,6 +1,8 @@
 <template>
     <div class="layout">
-        <slot />
+        <div class="font-primary">
+            <slot />
+        </div>
     </div>
 </template>
 
