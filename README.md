@@ -1,75 +1,65 @@
-# Nuxt Minimal Starter
+# 🐎 Horse Racing Game — Nuxt 3
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![Vercel Deploy](https://vercel.com/button)](https://horse-racing-game-beige.vercel.app)
+[![Vitest Coverage](https://img.shields.io/badge/tested%20with-vitest-6E9EFF?logo=vitest&logoColor=white)](https://vitest.dev)
+![Pinia](https://img.shields.io/badge/pinia-store-yellowgreen?logo=pinia&logoColor=white)
+![Composable](https://img.shields.io/badge/nuxt-composables-green?logo=nuxt.js)
 
-## Setup
+🎮 A fun horse racing game built with **Nuxt 3**, animated race logic, and clean state management via **Pinia**.  
+✅ Includes **unit tests for stores and composables** using **Vitest**.
 
-Make sure to install dependencies:
+[Live Demo 🚀](https://horse-racing-game-beige.vercel.app/)
+
+---
+
+## 🧪 Testing
+
+The project includes unit tests for core game logic like the horse and race stores, and composables like `useHorse` and `useRace`.
 
 ```bash
-# npm
+npm run test         # Run all tests
+npm run test:watch   # Run tests in watch mode
+```
+
+---
+
+## 🛠 Setup
+
+Install dependencies:
+
+```bash
 npm install
-
-# pnpm
+# or
 pnpm install
-
-# yarn
+# or
 yarn install
-
-# bun
+# or
 bun install
 ```
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## 💻 Development
+
+Start the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Open http://localhost:3000 in your browser.
 
-Build the application for production:
+---
+
+## 🚀 Production
+
+Build and preview:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [Nuxt deployment docs](https://nuxt.com/docs/getting-started/deployment) for more.
+
+---
