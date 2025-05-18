@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia'
-import { useHorseStore } from './horse'
 import type { RaceRound } from '~/interfaces/race'
 import { GameStatus } from '~/enums/game'
 import { StatusRound } from '~/enums/race'

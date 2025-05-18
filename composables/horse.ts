@@ -1,5 +1,5 @@
 import { storeToRefs } from 'pinia'
-import { useHorseStore } from '~/stores/horse'
+import { useHorseStore } from '~/stores/modules/horse/horse'
 import type { Horse } from '~/interfaces/horse'
 
 export const useHorses = () => {
