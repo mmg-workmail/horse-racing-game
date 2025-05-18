@@ -1,5 +1,4 @@
 import { storeToRefs } from 'pinia'
-import { useRaceStore } from '~/stores/race'
 
 export const useRace = () => {
     const raceStore = useRaceStore()
