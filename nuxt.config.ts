@@ -27,7 +27,8 @@ export default defineNuxtConfig({
         {
           href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap'
         }
-      ]
+      ],
+      script: []
     }
   },
   typescript: {

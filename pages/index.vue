@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Main Page
-    </div>
+    <ScreensGame />
 </template>

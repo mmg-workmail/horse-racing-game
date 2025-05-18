@@ -10,9 +10,7 @@ export default {
     "./app.vue",
   ],
   theme: {
-    fontFamily: {
-      primary: ["Montserrat", "Noto Sans Arabic"],
-    },
+    fontFamily: {},
     extend: {},
   },
   plugins: [],
