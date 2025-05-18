@@ -1,8 +1,10 @@
-import type { Horse } from "./horse";
+import type { StatusRound } from "~/enums/race"
+import type { Horse } from "./horse"
 
-export interface Race {
-    round: number;
-    length: number;
-    participants: Horse[];
-    result: Horse[];
+export interface RaceRound {
+    round: number
+    distance: number
+    label: string
+    status: StatusRound
+    results: Horse[]
 }

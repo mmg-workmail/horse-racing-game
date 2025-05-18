@@ -1,6 +1,9 @@
 export interface Horse {
     id: number;
     name: string;
-    color: string;
     condition: number;
+    color: string;
+    position: number;
+    isSelected: boolean;
+    finishTime: number | null;
 }
